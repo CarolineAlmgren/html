@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Forms</h1>
+        <hr>
+        <p>I`d really like to hear from you</p>
+        <form action="" method="get">
+      <fieldset>
+           <legend>Personal info</legend>
+           <input type="text" name="firstname" id="firstname" placeholder="Name" autocomplete="on" rerquired 
+           autofocus />
+              <br>
+      </fieldset>
+        </form>
+        <h2>Exercise</h2>
+        <ol>
+            <li>Create a simple form for sending a text to the httpbin.org</li>
+            <li>Check both methods get and post</li>
+        </ol>
+    </main>
+    <h2>Solution</h2>
+    <form action="get">
+        <label for="meddelande">Skriv lite text</label><br>
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Skicka</button>
+    </form>
+</body>
+</html>
