@@ -1,0 +1,16 @@
+.body {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.body .header2 {
+  color: blue;
+}
+
+.b ~ .a {
+  color: black;
+}
+
+#BigL::first-letter {
+  font-size: xx-large;
+  color: red;
+}/*# sourceMappingURL=style.css.map */

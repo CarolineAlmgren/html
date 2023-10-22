@@ -1,0 +1,23 @@
+@media (max-width: 400px) {
+  .p1 {
+    width: 50vw;
+    background-color: lightpink;
+  }
+  .p2 {
+    background-color: lightpink;
+  }
+  body {
+    background-color: lightblue;
+  }
+}
+@media (max-width: 400px) {
+  .p1 {
+    width: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .p2 {
+    width: 200px;
+  }
+}/*# sourceMappingURL=style.css.map */

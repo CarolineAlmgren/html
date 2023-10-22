@@ -1,0 +1,6 @@
+@function weight($weight){
+    @return map-get($font-weights,$weight);
+}
+@function mycolors($mycolors){
+    @return map-get($font-weights,$weight);
+}

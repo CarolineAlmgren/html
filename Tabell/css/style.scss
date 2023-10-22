@@ -1,0 +1,5 @@
+body {
+counter-reset: mycounter 1;
+counter-increment: mycounter -2; 
+content: counter(mycounter);
+}

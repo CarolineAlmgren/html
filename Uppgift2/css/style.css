@@ -1,0 +1,112 @@
+* {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   color: white;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+.header {
+  grid-area: hd;
+}
+
+.el {
+   background-color: rgb(93, 9, 126);
+   color: white;
+   display: grid;
+   place-content: right;
+   margin: 0;
+}
+
+ul {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+}
+
+.li:hover{
+   color:yellow;
+}
+
+.container {
+   display: grid;
+   margin: 0;
+   grid-template-columns: auto;
+   grid-row: auto;
+   grid-template-areas: 
+   "hd hd hd"
+   "swe swe swe"
+   "mn mn mn1"
+   "mn2 mn3 mn1"
+   "mn2 mn3 mn1"
+   "ft ft ft"
+   ;
+}
+
+
+.p1::first-letter {
+   color: yellow;
+   font-size: 250%;
+}
+
+
+.box:nth-child(2){
+   order:1;
+   grid-area: swe;
+   margin: 4px;
+}
+
+.box:nth-child(1){
+   order:2;
+   grid-area: mn;
+   background-color: blue;
+   padding: 10px;
+   margin: 4px;
+}
+
+.box:nth-child(3){
+   order:3;
+   grid-area: mn1;
+   background: lightblue;
+   color: white;
+   width: 40vw;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   padding: 10px;
+   margin: 0 4px;
+
+
+}
+
+.box:nth-child(4){
+   order:4;
+   grid-area: mn2;
+   background-color: lightblue;
+   writing-mode: vertical-lr;
+   text-orientation: mixed;
+   text-align: center;
+   width: 20vw;
+   padding: 10px;
+   margin: 0 4px;
+
+   
+}
+
+.box:nth-child(5){
+   order:5;
+   grid-area: mn3;
+   background-color: purple;
+   padding: 10px;
+   margin: 0;
+   
+}
+
+.footer {
+   grid-area: ft;
+   text-align: right;
+   padding: 20px;
+   margin: 0 4px ;
+   height: 8vw;
+}
+

@@ -1,0 +1,32 @@
+
+@media (max-width: 400px) {
+    .p1  {
+        width:50vw;
+        background-color: lightpink;
+    }
+    .p2{
+        background-color: lightpink;
+    }
+    body {
+       background-color: lightblue;
+    }
+}
+
+$maxwidth: 400px;
+$width: 200px;
+
+
+@mixin smaller($maxwidth,$width) {
+  @media (max-width:$maxwidth) {
+        width:$width;
+    }
+}
+
+.p1 {
+ @include smaller (400px,200px)
+}
+
+.p2 {
+ @include smaller (400px,200px)
+}
+

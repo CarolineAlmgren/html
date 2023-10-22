@@ -1,0 +1,23 @@
+$primary_color: pink;
+
+
+@mixin square($size, $radius: 0) {
+ width: $size;
+ height: $size;
+ border: 1px black solid;
+
+ @if $radius !=0 {
+    border-radius: $radius;
+ }
+
+}
+
+.box {
+    @include square (100px);
+    color: $primary_color;
+}
+
+.biggerbox {
+    @include square (200px, 50px);
+    color: $primary_color;
+}

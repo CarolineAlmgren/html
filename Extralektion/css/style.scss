@@ -1,0 +1,21 @@
+$padding: 100px;
+
+.button {
+    border:5px solid black;
+    width: calc(40% - $padding)
+    padding: $padding;
+    height: 50px;
+
+
+&.red {
+    background-color: red;
+}
+
+&.blue {
+    background-color: blue;
+}
+
+&.yellow {
+    background-color: yellow;
+}
+}

@@ -1,0 +1,8 @@
+git config --global core.autocrlf true{
+	"folders": [
+		{
+			"path": "Git"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,12 @@
+.container {
+  font-size: 2rem;
+  color: black;
+}
+.container__para {
+  font-size: 4rem;
+  color: red;
+}
+.container__para2 {
+  font-size: 5rem;
+  color: green;
+}/*# sourceMappingURL=bem.css.map */

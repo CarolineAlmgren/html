@@ -1,0 +1,48 @@
+.outer-container {
+    border: 5px dashed black;
+    width: 74vw;
+    height: 90vh;
+    margin: 20px;
+}
+
+.inner-container {
+    border: 5px solid blue;
+    width: 60vw;
+    height: 70vh;
+    position: absolute;
+    
+}
+
+.relative {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+
+}
+
+.absolute {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+ 
+}
+
+.sticky {
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: sticky;
+
+}
+
+.fixed {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+
+}
