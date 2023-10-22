@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Fuggles&family=Martian+Mono:wght@300&family=Oooh+Baby&family=Open+Sans:ital,wght@1,500&family=Pacifico&family=Princess+Sofia&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto+Slab:wght@100&family=Rubik+Gemstones&family=Sedgwick+Ave+Display&family=Sofia&family=Unbounded:wght@300&display=swap');
+
+body {
+    background-image: url("/img/bakgrund1.png");
+    font-family: "Oooh Baby", 'Times New Roman', Times, serif;
+    color: black;
+    list-style: none;
+    font-size: 1.5rem; 
+
+    .h1 {
+        color: black;
+        text-align: center;
+        font-size: 3.5rem;
+        margin: 50px;
+    }
+ 
+}
+
+  .box1 {
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+
+  h2 {
+    margin-left: 10px;
+  }
+
+  p {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+  }
+  
+ img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: inline-block;
+ }
+
+.menu-nav_items a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-top: 2px;
+   
+}
